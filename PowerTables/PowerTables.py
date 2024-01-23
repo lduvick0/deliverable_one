@@ -7,3 +7,9 @@ print("{:<10} {:<10} {:<10}".format("======","======","======"))
 for i in range (1, userInput+1):
     print("{:<10} {:<10} {:<10}".format(i, i**2, i**3))
     #print(str(userInput-i)+"         "+str(((userInput-i)*(userInput-i)))+"         "+str((userInput-i)**3))
+
+print("\nMultiplication Table")
+print("{:<10} {:<10} {:<10} {:<10}".format(1,2,3,4))
+print("{:<10} {:<10} {:<10} {:<10}".format("=","=","=","="))
+for i in range (1, userInput+1):
+    print("{:<10} {:<10} {:<10} {:<10}".format(i, i * 2, i * 3, i * 4))
