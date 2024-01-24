@@ -1,0 +1,5 @@
+Create a function named heating_cooling
+give it parameters of actual_temp and desired_temp
+create an input variable and prompt the user to input two integers, one for actual temp and one for desired
+define what should require raising the temp, lowering, and maintaining
+call the function with different parameters at least three times
